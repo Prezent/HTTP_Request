@@ -24,9 +24,15 @@
         "source": "https://github.com/pear/HTTP_Request"
     },
     "type": "library",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "https://pear.php.net"
+        }
+    ],
     "require": {
         "pear/pear_exception": "*",
-        "pear/net_url": "*"
+        "pear-pear.php.net/Net_URL": "1.0.*"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
